@@ -18,23 +18,23 @@ I use [bkai-foundation-models/vietnamese-bi-encoder](https://huggingface.co/bkai
 For the training llm stage, I use [SeaLLMs/SeaLLM-7B-v2.5](https://huggingface.co/SeaLLMs/SeaLLM-7B-v2.5) as base model for continued pretraining. Then use this pretrained model to train supervised finetuning.
 
 Data for fine-tuning SeaLLM-7B-v2.5 and ColBERTv2 can be downloaded from the following link:
-[Data](https://drive.google.com/drive/folders/1T5w7L0o5uRJYK8LzH2J5Vz1T9TJ-5j9W?usp=sharing)
+[Data](https://drive.google.com/drive/folders/1KLOZJSmxRGRLPv8OJzjihaccCOR-XENj?usp=drive_link)
 
 After downloading, extract the data and place it in the `data` folder.
 
 ### Inference
-Please download the supervised-finetuned SeaLLM-7B-v2.5 model and the ColBERTv2 model from the following link (or [Drive]()) and place them in the `models` folder.
+Please download the supervised-finetuned SeaLLM-7B-v2.5 model and the ColBERTv2 model from the following link (or [Drive](https://drive.google.com/drive/folders/1KLOZJSmxRGRLPv8OJzjihaccCOR-XENj?usp=drive_link)) and place them in the `models` folder.
 
 | Model | Link |
 |:---:|:---:|
 | SeaLLM-7B-v2.5 | [https://huggingface.co/xuantruong118/SeaLLM-7B-v2.5](https://huggingface.co/xuantruong118/SeaLLM-7B-v2.5) |
-| ColBERTv2 | [https://huggingface.co/xuantruong118/ColBERTv2](https://huggingface.co/xuantruong118/ColBERTv2) |
+| ColBERTv2 | [https://huggingface.co/truongxl/colbert-retriever](https://huggingface.co/truongxl/colbert-retriever) |
 
 
 
 The data used to Retriever for the chatbot can be downloaded from the following link and placed in the `data` folder.
 
-Data: https://drive.google.com/drive/folders/1sG9w7x3Xs9L7Zzr9Vg0Zq2t5BjzQZVJ-?usp=sharing
+[Data](https://drive.google.com/drive/folders/1KLOZJSmxRGRLPv8OJzjihaccCOR-XENj?usp=drive_link)
 
 
 ### 4. Start server Retriever and LLM
@@ -56,7 +56,7 @@ Run the following command to start the chatbot:
 ```
 python app.py
 ```
-After running complete, open your web browser and navigate to `http://localhost:5000` to access the chatbot.
+After running complete, open your web browser and navigate to `http://localhost:8001` to access the chatbot.
 
 
 
