@@ -36,18 +36,18 @@ Please download the supervised-finetuned SeaLLM-7B-v2.5 model and the ColBERTv2 
 
 The data used to Retriever for the chatbot can be downloaded from the following link and placed in the `data` folder.
 
-Data: https://drive.google.com/drive/folders/1sG9w7x3Xs9L7Zzr9Vg0Zq2t5BjzQZVJ-?usp=sharing
+[Data](https://drive.google.com/drive/folders/1sG9w7x3Xs9L7Zzr9Vg0Zq2t5BjzQZVJ-?usp=sharing)
 
 ### 4. Start server Retriever and LLM
 Run the following command to start the server:
 
 #### Retriever server
 ```
-python retriever.py
+bash retriever.sh
 ```
 vLLM server
 ```
-python server.py
+bash server.sh
 ```
 
 ### 5. Start the chatbot
@@ -55,7 +55,7 @@ python server.py
 Run the following command to start the chatbot:
 
 ```
-python chatbot.py
+python app.py
 ```
 After running complete, open your web browser and navigate to `http://localhost:5000` to access the chatbot.
 
