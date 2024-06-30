@@ -44,7 +44,7 @@ After running complete, open your web browser and navigate to `http://localhost:
 
 ### Contact
 
-If you have any questions or suggestions, please feel free to contact me at truongxl.yd1@gmail.com
+If you have any questions or suggestions, please feel free to contact me via email: truongxl.yd1@gmail.com
 
 
 
