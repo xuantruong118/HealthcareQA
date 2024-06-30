@@ -42,4 +42,9 @@ python chatbot.py
 After running complete, open your web browser and navigate to `http://localhost:5000` to access the chatbot.
 
 
+### Contact
+
+If you have any questions or suggestions, please feel free to contact me at truongxl.yd1@gmail.com
+
+
 
