@@ -4,17 +4,17 @@ HealthCareQA - a Vietnamese health Q&A chatbot based on Retrieval-Augmented Gene
 
 
 
-### Setup
+# Setup
 
-# 1. Clone repository
+### 1. Clone repository
 
 git clone [text](https://github.com/xuantruong118/HeathcareQA.git)
 
-# 2. Installation
+### 2. Installation
 
 pip install -r `requirements.txt`
 
-# 3. Download model
+### 3. Download model
 
 Please download the pre-trained SeaLLM-7B-v2.5 model and the ColBERTv2 model from the following link and place them in the `models` folder.
 
@@ -22,7 +22,7 @@ Please download the pre-trained SeaLLM-7B-v2.5 model and the ColBERTv2 model fro
 
 [ColBERTv2](https://huggingface.co/xuantruong118/ColBERTv2)
 
-# 4. Start server Retriever and LLM
+### 4. Start server Retriever and LLM
 Run the following command to start the server:
 
 ```
@@ -32,7 +32,7 @@ python retriever.py
 python server.py
 ```
 
-# 5. Start the chatbot
+### 5. Start the chatbot
 
 Run the following command to start the chatbot:
 
