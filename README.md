@@ -27,7 +27,7 @@ Please download the supervised-finetuned SeaLLM-7B-v2.5 model and the ColBERTv2 
 
 | Model | Link |
 |:---:|:---:|
-| SeaLLM-7B-v2.5 | [https://huggingface.co/xuantruong118/SeaLLM-7B-v2.5](https://huggingface.co/xuantruong118/SeaLLM-7B-v2.5) |
+| SeaLLM-7B-v2.5 | [https://huggingface.co/truongxl/med-seallm-7b-v2.5-sft](https://huggingface.co/truongxl/med-seallm-7b-v2.5-sft) |
 | ColBERTv2 | [https://huggingface.co/truongxl/colbert-retriever](https://huggingface.co/truongxl/colbert-retriever) |
 
 
