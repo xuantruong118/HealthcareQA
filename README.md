@@ -41,9 +41,11 @@ Data: https://drive.google.com/drive/folders/1sG9w7x3Xs9L7Zzr9Vg0Zq2t5BjzQZVJ-?u
 ### 4. Start server Retriever and LLM
 Run the following command to start the server:
 
+#### Retriever server
 ```
 python retriever.py
 ```
+vLLM server
 ```
 python server.py
 ```
