@@ -8,7 +8,7 @@ HealthCareQA - a Vietnamese health Q&A chatbot based on Retrieval-Augmented Gene
 
 ### 1. Clone repository
 
-git clone [text](https://github.com/xuantruong118/HeathcareQA.git)
+git clone (https://github.com/xuantruong118/HeathcareQA.git)
 
 ### 2. Installation
 
