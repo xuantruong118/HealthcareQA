@@ -8,7 +8,7 @@ from scipy.spatial.distance import cosine
 
 
 
-genai.configure(api_key="AIzaSyAMgjZgQnaBn4Lb624yUQ2lNcDZFOd5jXQ")
+genai.configure(api_key="")
 
 for m in genai.list_models():
   if 'generateContent' in m.supported_generation_methods:
